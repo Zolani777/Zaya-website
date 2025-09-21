@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zaya Mobile provides seamless, secure, and intelligent connectivity that works across all networks with built-in AI assistance.">
+    <title>Zaya Mobile - Carrier-Agnostic Connectivity</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Video Background -->
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="https://github.com/Zolani777/Zaya-Onboarding-Video/raw/main/onboarding1Vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+
+    <!-- iPhone 16 Theme Controls (Hidden) -->
+    <input name="theme" type="radio" id="deep-purple" checked style="display: none;">
+    <input name="theme" type="radio" id="gold" style="display: none;">
+    <input name="theme" type="radio" id="space-black" style="display: none;">
+    <input name="theme" type="radio" id="silver" style="display: none;">
+    <input name="theme" type="radio" id="random" style="display: none;">
+    <input name="zoom" type="checkbox" id="zoom" style="display: none;">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-content">
+            <a href="#" class="logo" aria-label="Zaya Mobile Home">
+                <div class="logo-img">
+                    <img src="https://github.com/Zolani777/Zaya-Onboarding-Video/raw/main/App%20Icon.png" alt="Zaya Mobile Logo">
+                </div>
+                <div class="logo-text">ZAYA MOBILE</div>
+            </a>
+            
+            <nav aria-label="Main navigation">
+                <ul id="nav-menu">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#founder">Founder</a></li>
+                    <li><a href="#waitlist">Join Waitlist</a></li>
+                </ul>
+            </nav>
+            
+            <button class="cta-button" aria-label="Get Early Access">Get Early Access</button>
+            
+            <button class="mobile-menu-btn" id="menu-toggle" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <article class="hero-text fade-in">
+                <h1>Carrier-Agnostic Connectivity Powered by AI</h1>
+                <p>Zaya Mobile provides seamless, secure, and intelligent connectivity that works across all networks with built-in AI assistance.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#" class="app-store-btn">
+                        <i class="fab fa-apple fa-2x"></i>
+                        <div>
+                            <div>Download on the</div>
+                            <div>App Store</div>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="app-store-btn">
+                        <i class="fab fa-google-play fa-2x"></i>
+                        <div>
+                            <div>GET IT ON</div>
+                            <div>Google Play</div>
+                        </div>
+                    </a>
+                </div>
+            </article>
+            
+            <div class="hero-image fade-in">
+                <!-- Two iPhones side by side -->
+                <div class="dual-iphones">
+                    <div class="scene" style="position: relative; z-index: 2;">
+                        <div class="phone-con">
+                            <div class="phone">
+                                <div class="buttons">
+                                    <div class="left">
+                                        <div class="button"></div>
+                                        <div class="button"></div>
+                                        <div class="button"></div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="button"></div>
+                                    </div>
+                                </div>
+                                <div class="camera"></div>
+                                <div class="screen-container">
+                                    <div class="bg">
+                                        <div class="deep-purple">
+                                            <div class="section">
+                                                <div class="glow"></div>
+                                            </div>
+                                            <div class="section">
+                                                <div class="glow"></div>
+                                            </div>
+                                        </div>
+                                        <div class="gold">
+                                            <div class="section">
+                                                <div class="glow"></div>
+                                            </div>
+                                            <div class="section">
+                                                <div class="glow"></div>
+                                            </div>
+                                        </div>
+                                        <div class="space-black">
+                                            <div class="section">
+                                                <div class="glow"></div>
+                                            </div>
+                                            <div class="section">
+                                                <div class="glow"></div>
+                                            </div>
+                                        </div>
+                                        <div class="silver">
+                                            <div class="section">
+                                                <div class="glow"></div>
+                                            </div>
+                                            <div class="section">
+                                                <div class="glow"></div>
+                                            </div>
+                                        </div>
+                                        <div class="random canvas">
+                                            <div class="shapes">
+                                                <div class="shape"></div>
+                                                <div class="shape"></div>
+                                                <div class="shape"></div>
+                                                <div class="shape"></div>
+                                                <div class="shape"></div>
+                                                <div class="shape"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="notch-container" tabindex="0">
+                                        <div class="notch">
+                                            <div class="content">
+                                                <div class="left">
+                                                    <div class="tile"></div>
+                                                    <div class="text"></div>
+                                                </div>
+                                                <div class="right"></div>
+                                                <div class="bar">
+                                                    <div class="duration"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="notch-blur"></div>
+                                    <div class="screen">
+                                        <!-- First phone video: ConnectSim.mp4 -->
+                                        <video autoplay muted loop playsinline preload="auto" class="phone-video">
+                                            <source src="assets/videos/ConnectSim.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="scene" style="position: relative; z-index: 1;">
+                        <div class="phone-con">
+                            <div class="phone">
+                                <div class="buttons">
+                                    <div class="left">
+                                        <div class="button"></div>
+                                        <div class="button"></div>
+                                        <div class="button"></div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="button"></div>
+                                    </div>
+                                </div>
+                                <div class="camera"></div>
+                                <div class="screen-container">
+                                    <div class="bg">
+                                        <div class="deep-purple">
+                                            <div class="section">
+                                                <div class="glow"></div>
+                                            </div>
+                                            <div class="section">
+                                                <div class="glow"></div>
+                                            </div>
+                                        </div>
+                                        <div class="gold">
+                                            <div class="section">
+                                                <div class="glow"></div>
+                                            </div>
+                                            <div class="section">
+                                                <div class="glow"></div>
+                                            </div>
+                                        </div>
+                                        <div class="space-black">
+                                            <div class="section">
+                                                <div class="glow"></div>
+                                            </div>
+                                            <div class="section">
+                                                <div class="glow"></div>
+                                            </div>
+                                        </div>
+                                        <div class="silver">
+                                            <div class="section">
+                                                <div class="glow"></div>
+                                            </div>
+                                            <div class="section">
+                                                <div class="glow"></div>
+                                            </div>
+                                        </div>
+                                        <div class="random canvas">
+                                            <div class="shapes">
+                                                <div class="shape"></div>
+                                                <div class="shape"></div>
+                                                <div class="shape"></div>
+                                                <div class="shape"></div>
+                                                <div class="shape"></div>
+                                                <div class="shape"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="notch-container" tabindex="0">
+                                        <div class="notch">
+                                            <div class="content">
+                                                <div class="left">
+                                                    <div class="tile"></div>
+                                                    <div class="text"></div>
+                                                </div>
+                                                <div class="right"></div>
+                                                <div class="bar">
+                                                    <div class="duration"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="notch-blur"></div>
+                                    <div class="screen">
+                                        <!-- Second phone video: ZayaChat.mp4 -->
+                                        <video autoplay muted loop playsinline preload="auto" class="phone-video">
+                                            <source src="assets/videos/ZayaChat.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Revolutionary Connectivity Features</h2>
+                <p>Zaya Mobile combines cutting-edge technology with seamless user experience</p>
+            </div>
+            
+            <div class="features-grid">
+                <article class="feature-card fade-in">
+                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3 class="feature-title">Secure Tunnel Connection</h3>
+                    <p class="feature-desc">All your internet traffic is encrypted and protected through our secure tunnel technology, ensuring privacy and security.</p>
+                </article>
+                
+                <article class="feature-card fade-in">
+                    <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                    <h3 class="feature-title">Carrier-Agnostic</h3>
+                    <p class="feature-desc">Works across all mobile networks seamlessly. No more switching SIM cards or dealing with poor coverage areas.</p>
+                </article>
+                
+                <article class="feature-card fade-in">
+                    <div class="feature-icon"><i class="fas fa-robot"></i></div>
+                    <h3 class="feature-title">AI-Powered Optimization</h3>
+                    <p class="feature-desc">Our built-in AI constantly analyzes network conditions and optimizes your connection for the best possible performance.</p>
+                </article>
+                
+                <article class="feature-card fade-in">
+                    <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3 class="feature-title">Real-Time Data Metrics</h3>
+                    <p class="feature-desc">Monitor your data usage in real-time with detailed breakdowns of Zaya Mobile data and bootstrap data consumption.</p>
+                </article>
+                
+                <article class="feature-card fade-in">
+                    <div class="feature-icon"><i class="fas fa-wifi"></i></div>
+                    <h3 class="feature-title">Seamless Handoffs</h3>
+                    <p class="feature-desc">Experience uninterrupted connectivity as Zaya Mobile seamlessly hands off between different networks and technologies.</p>
+                </article>
+                
+                <article class="feature-card fade-in">
+                    <div class="feature-icon"><i class="fas fa-globe"></i></div>
+                    <h3 class="feature-title">Global Access</h3>
+                    <p class="feature-desc">Access the internet without borders. Zaya Mobile provides global connectivity with local performance.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>How Zaya Mobile Works</h2>
+                <p>Getting started with revolutionary connectivity is simple</p>
+            </div>
+            
+            <div class="steps">
+                <article class="step fade-in">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Download & Install</h3>
+                    <p class="step-desc">Get the app from the App Store or Google Play Store and install it on your device.</p>
+                </article>
+                
+                <article class="step fade-in">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Create Your Profile</h3>
+                    <p class="step-desc">Set up your connectivity profile with your preferences and requirements.</p>
+                </article>
+                
+                <article class="step fade-in">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Activate Connection</h3>
+                    <p class="step-desc">Tap the activate button and let Zaya Mobile handle the rest. Enjoy seamless connectivity!</p>
+                </article>
+                
+                <article class="step fade-in">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Monitor & Optimize</h3>
+                    <p class="step-desc">Use the real-time metrics to monitor your connection and let AI optimize performance.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>What Early Users Say</h2>
+                <p>Hear from our beta testers and early adopters</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <article class="testimonial-card fade-in">
+                    <p class="testimonial-text">"Zaya Mobile completely changed how I stay connected. The seamless switching between networks is magical."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JD</div>
+                        <div>
+                            <div class="author-name">Jane Doe</div>
+                            <div class="author-title">Tech Journalist</div>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="testimonial-card fade-in">
+                    <p class="testimonial-text">"As a frequent traveler, Zaya Mobile has been a game-changer. No more hunting for local SIM cards!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JS</div>
+                        <div>
+                            <div class="author-name">John Smith</div>
+                            <div class="author-title">Digital Nomad</div>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="testimonial-card fade-in">
+                    <p class="testimonial-text">"The AI optimization feature actually works. My connection is faster and more reliable than ever before."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SR</div>
+                        <div>
+                            <div class="author-name">Sarah Johnson</div>
+                            <div class="author-title">Software Engineer</div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Section -->
+    <section class="founder" id="founder">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Our Visionary Leader</h2>
+                <p>The mind behind Zaya Mobile's revolutionary technology</p>
+            </div>
+            
+            <article class="founder-content fade-in">
+                <div class="founder-card">
+                    <div class="founder-image">
+                        <img src="https://placehold.co/400x400/00BFFF/FFFFFF?text=Zolani+Baloyi" alt="Zolani Baloyi">
+                    </div>
+                    
+                    <div class="founder-info">
+                        <h3 class="founder-name">Zolani Baloyi</h3>
+                        <p class="founder-title">Founder & Builder of Zaya</p>
+                        
+                        <p class="founder-bio">
+                            Zolani is a visionary technologist with a passion for solving complex connectivity challenges. 
+                            With over a decade of experience in network infrastructure and AI systems, he founded Zaya Mobile 
+                            to revolutionize how people access the internet. His innovative approach to carrier-agnostic 
+                            connectivity has positioned Zaya as a leader in the next generation of mobile internet solutions.
+                        </p>
+                        
+                        <div class="founder-social">
+                            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Waitlist Section -->
+    <section class="waitlist" id="waitlist">
+        <div class="container">
+            <div class="waitlist-content fade-in">
+                <h2>Be Among the First to Experience Zaya Mobile</h2>
+                <p>Join our waitlist to get early access and exclusive launch offers</p>
+                
+                <form class="waitlist-form">
+                    <input type="email" class="waitlist-input" placeholder="Enter your email address" required aria-label="Email address">
+                    <button type="submit" class="cta-button">Join Waitlist</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <div class="footer-logo">ZAYA MOBILE</div>
+                    <p class="footer-desc">Revolutionizing mobile connectivity with AI-powered, carrier-agnostic technology.</p>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="footer-heading">Product</h3>
+                    <ul class="footer-links">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Use Cases</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="footer-heading">Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="#founder">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="footer-heading">Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2023 Zaya Mobile. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
